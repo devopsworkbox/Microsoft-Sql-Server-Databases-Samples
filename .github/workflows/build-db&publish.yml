@@ -1,4 +1,4 @@
-name: Build SQL Server Database
+name: Build sql db & publish to artifact
 on: workflow_dispatch
 #  push:
 #    branches:
