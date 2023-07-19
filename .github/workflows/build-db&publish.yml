@@ -20,7 +20,7 @@ jobs:
         
     - name: Build database
       run: |
-        sqlcmd -S localhost -U admin -P admin123 -i .src/DB/AdventureWorks2017.sql
+        sqlcmd -S localhost -U admin -P admin123 -i ./src/DB/AdventureWorks2017.sql
       
     - name: Publish artifacts
       uses: actions/upload-artifact@v2
